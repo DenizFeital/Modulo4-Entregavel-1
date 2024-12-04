@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A18A293-B74A-94A4-48CE-A491B98FFE19" name="TB_MD3_SENSORS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>ADAF91C7-229E-59FE-3BF3-363915DDC037</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sensor_id" id="FDFF7D74-C294-9AD3-300E-5DB5B744755B">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>CCBF1BBD-815F-637E-8487-5C76BCF1FA0F</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensor_type" id="A6ACB052-3043-1873-750C-34393AA4FAE7">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>6141548D-F040-58C4-BEF8-2B1F107E5565</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="installation_date" id="2F218A34-02DE-83DE-FB25-CA668085869C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>1AEA17ED-AC1D-1B8C-9D13-59F4C5595D4B</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="B2F9A8ED-9264-A781-6716-9024D7940540">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>C706B231-985A-CEFE-AC99-A898F5B7B384</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensor_location" id="C77F6122-AB20-D810-C204-36CDD74BC6FA">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>4173C2F9-C826-471A-35F3-3D2E0D36F828</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05CF6535-93ED-A6BF-17EA-B0004074016C" name="TB_SENSORS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>3ABE6A34-67E5-A758-1B20-6D6D98B5D08A</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDFF7D74-C294-9AD3-300E-5DB5B744755B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB9C41E9-4A14-5C8C-FB43-B011382F58EF" containerWithKeyObject="64E6F3B0-0956-9DC8-D58F-E471A8376681" localFKIndex="5BE7A5F2-B90A-A08F-377B-27D326F27F67" name="FK_NUTR_COL">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>2B86CC80-0BF4-BFC9-32E0-27D4B4599A45</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<referredTableLongName>TB_MD3_NUTRIENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4820724-DFFF-E5B4-2218-D4C3661CD7F3</referredTableID>
+<keyObject>E11DB8A4-DBFE-45EA-8C6E-F92A3220C855</keyObject>
+<referredKeyID>E11DB8A4-DBFE-45EA-8C6E-F92A3220C855</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nutrient_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

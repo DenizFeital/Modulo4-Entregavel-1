@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Mod3-Cap1-Databases" id="68163A8E-AD47-F99F-5A08-BC7E62CF64B0" version="3.5">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:01:19 UTC</createdTime>
+<ownerDesignName>Cap1-Construindo_uma_maquina_agricola</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>68163A8E-AD47-F99F-5A08-BC7E62CF64B0</designId>
+</OSDM_Design>

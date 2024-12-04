@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B9D9FB-17F4-5DED-7D31-9E2625901988" name="TB_MD3_IRRIGATION_EVENTS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>229410ED-6333-3F58-8FE2-DB1EF32ACA78</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<ordsAlias>tb__md3_irrigation_events</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_id" id="DE136E90-B24C-EFBB-31E7-A26F1798AF5F">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>E9837598-7F6A-3B43-BB36-D37BBFB76F05</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SENSORS_sensor_id" id="985F5CB3-662D-F6A7-917C-7D5878E9E71B">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>743B5705-E3DA-218E-BD96-BE89901CE0DD</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01D846B5-ABF2-74DA-5332-FE2CA7645FE0" referredColumn="FDFF7D74-C294-9AD3-300E-5DB5B744755B"/>
+</associations>
+</Column>
+<Column name="irrigation_time" id="1E5EB958-443B-9079-1B24-874F68BF5DF2">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>965047A4-B222-A7A0-1C03-B99376C80AA7</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="BCD30CAF-7D8A-5482-F603-067AD800D047">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>4C628A98-9F11-B82B-90A5-AE1A4D389EFF</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount_of_water" id="97D90108-6F05-5F67-BF5B-CEC483A8E938">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>A4AE1D12-3455-C0A3-2888-A978F6E40DBD</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63F8935C-E445-E1CC-448F-6A4343895D35" name="TB_IRRIGATION_EVENTS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>2603DD52-6505-22D2-8119-8B73601688A2</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE136E90-B24C-EFBB-31E7-A26F1798AF5F"/>
+<colUsage columnID="985F5CB3-662D-F6A7-917C-7D5878E9E71B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B613FD14-F942-959A-6AA8-FFF42B6306F5" name="FK_SENSORSv1">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>ED3612D5-CFE1-A54B-68C4-80CAC1AD687B</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985F5CB3-662D-F6A7-917C-7D5878E9E71B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64E6F3B0-0956-9DC8-D58F-E471A8376681" name="TB_MD3_NUTRIENT_COLLECTION">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>93C65D45-1173-330D-B0B3-812FDABBC018</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="collection_id" id="EA780EDF-6CE6-9C9E-FDC8-92E3D01C7DED">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>12FA3787-C663-ECE8-347C-1C3589285501</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_NUTRIENTS_nutrient_id" id="81B3E889-65CE-DB41-FA6E-C6AEA14AEE6D">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>903B8C9A-34F4-04E3-01E9-1582C9F23D6C</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB9C41E9-4A14-5C8C-FB43-B011382F58EF" referredColumn="F2FE5EBE-AB2E-2BAF-C1A5-EE9364823DB7"/>
+</associations>
+</Column>
+<Column name="TB_SENSORS_sensor_id" id="5D2806A7-7B11-BA6E-F768-DC711647C115">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>EF2A01C1-A363-DD5E-7F5B-6192D40320F0</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A936057B-65D0-D9E8-AD48-FB05C0B6E07C" referredColumn="FDFF7D74-C294-9AD3-300E-5DB5B744755B"/>
+</associations>
+</Column>
+<Column name="collection_value" id="39B9CB02-049B-A91E-AA0E-9CDFAAE5D3A7">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>903C4493-E3CC-D0EB-893C-467915AF3973</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="collection_time" id="53187E26-9059-CECD-34A0-B02770186D75">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>CBB6AF75-2359-3103-66E7-4037EBEF9EFC</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nutrient_type" id="67BA7DD1-8852-F70E-ACB1-21105ADB2E2B">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>E7B7E87C-175A-4265-81AB-4FD4E7243376</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0B1CCE2-F2F5-CE9C-E7AE-30790EDE3021" name="TB_NUTRIENT_COLLECTION_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>A9F8E955-464C-679B-30B2-0B31ED59E957</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA780EDF-6CE6-9C9E-FDC8-92E3D01C7DED"/>
+<colUsage columnID="5D2806A7-7B11-BA6E-F768-DC711647C115"/>
+<colUsage columnID="81B3E889-65CE-DB41-FA6E-C6AEA14AEE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C70AB29A-2BD6-0258-F25A-6BFAAB874FCC" name="FK_SENSORS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>4DFD9842-C690-4100-3CC3-4C5521782195</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2806A7-7B11-BA6E-F768-DC711647C115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BE7A5F2-B90A-A08F-377B-27D326F27F67" name="FK_NUTR_COL">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>2B86CC80-0BF4-BFC9-32E0-27D4B4599A45</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B3E889-65CE-DB41-FA6E-C6AEA14AEE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

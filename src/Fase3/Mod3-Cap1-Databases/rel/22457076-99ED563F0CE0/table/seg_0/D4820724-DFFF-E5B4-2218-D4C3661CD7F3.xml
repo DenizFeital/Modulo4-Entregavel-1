@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4820724-DFFF-E5B4-2218-D4C3661CD7F3" name="TB_MD3_NUTRIENTS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>34FE0D07-CB94-F5F4-4749-15768A39BA33</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nutrient_id" id="F2FE5EBE-AB2E-2BAF-C1A5-EE9364823DB7">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>9755B369-C663-2411-DB31-C522B0DE1824</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nutrient_name" id="36E22666-B909-BBA6-C39D-CA0039E1A1A7">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>DD08F9D1-5FEE-973F-5929-CAD3AE9C36F6</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="B8BDA2C6-E9B2-D53C-E960-A8A4BA9F94AB">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>39609DCE-903A-9E1A-507B-AD8E6F561C87</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E11DB8A4-DBFE-45EA-8C6E-F92A3220C855" name="TB_NUTRIENTS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>5C6516BA-6696-62E4-3AD4-803A348D8253</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2FE5EBE-AB2E-2BAF-C1A5-EE9364823DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

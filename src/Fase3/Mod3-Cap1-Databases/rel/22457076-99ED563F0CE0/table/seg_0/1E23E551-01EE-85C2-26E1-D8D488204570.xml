@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E23E551-01EE-85C2-26E1-D8D488204570" name="TB_MD3_SENSOR_READINGS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>1277E5D2-2266-EF44-B11D-51D8ED3D0504</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reading_id" id="1AA83FAA-29CF-C96A-0C6F-36981176C82C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>38FE7997-4B7E-3DBD-3702-2ADB56511A56</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SENSORS_sensor_id" id="8CD23DC4-68DE-2EDB-14D3-4FAE8ABD4E27">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>3730D251-0834-C9B8-46F6-7CA22D33C050</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B428BA0C-AD1A-3515-3A6E-C73EC88048F8" referredColumn="FDFF7D74-C294-9AD3-300E-5DB5B744755B"/>
+</associations>
+</Column>
+<Column name="reading_value" id="EDBEB08D-E17C-9FE7-5A25-1DE662C0ED62">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>3BE5113B-4BE5-8C99-E4AB-20C4B7328E4D</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reading_date" id="3898AC11-7BAD-BDE5-137E-577E4A1B470F">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>453270DA-0887-315A-42A5-F95871AFAE39</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D1E709C-6E5A-C2E5-80CD-182C5F2501AE" name="TB_SENSOR_READINGS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>C5460B23-1EB9-4D3E-EA22-DA4D7E6EA541</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA83FAA-29CF-C96A-0C6F-36981176C82C"/>
+<colUsage columnID="8CD23DC4-68DE-2EDB-14D3-4FAE8ABD4E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="829F7D06-07F4-67AD-E6C9-30C1C2CAC40B" name="FK_SENSORSv3">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>5140077D-08ED-E7F6-7130-74E630CB21F0</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD23DC4-68DE-2EDB-14D3-4FAE8ABD4E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

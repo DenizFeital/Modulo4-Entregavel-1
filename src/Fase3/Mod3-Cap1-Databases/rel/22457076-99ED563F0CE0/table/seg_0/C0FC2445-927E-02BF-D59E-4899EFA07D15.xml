@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0FC2445-927E-02BF-D59E-4899EFA07D15" name="TB_MD3_HUMIDITY_READINGS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>E6D5052C-F1AE-87FC-2873-240EA968EB55</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="humidity_id" id="6978EC74-6AF5-5644-AEF7-FB75F7F27E57">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>E95FC3EA-4509-4FAB-07E7-666BD44301AA</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SENSORS_sensor_id" id="5CAA7136-2190-594C-67E2-C080B10579FB">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>9490EC81-B1AD-7897-7055-ED0AC54DEA8E</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDA47DAE-5722-BFF6-973E-43E545D6D7B9" referredColumn="FDFF7D74-C294-9AD3-300E-5DB5B744755B"/>
+</associations>
+</Column>
+<Column name="humidity_value" id="7CF4B2C8-0C2E-33AB-D412-95550971F0CE">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>4E43B639-171C-D0F6-3857-395C401B0E11</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reading_timestamp" id="8EA0D409-ED60-3FEF-A139-2D695EBC3CC1">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>C1E2534C-1D1C-603E-E9D4-C59B862305D2</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9F473A0-A333-364A-B0A3-82435474FD2C" name="TB_HUMIDITY_READINGS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>1C43184D-D627-2AA6-78AF-291E39A09333</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6978EC74-6AF5-5644-AEF7-FB75F7F27E57"/>
+<colUsage columnID="5CAA7136-2190-594C-67E2-C080B10579FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64EF5B8D-814C-6987-7F5D-47D99E0CDB72" name="FK_SENSORSv2">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:50:01 UTC</createdTime>
+<generatorID>E08D560D-77C4-631C-7743-8CBF83DA3BAF</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CAA7136-2190-594C-67E2-C080B10579FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

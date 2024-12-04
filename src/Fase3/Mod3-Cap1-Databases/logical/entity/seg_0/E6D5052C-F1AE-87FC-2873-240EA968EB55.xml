@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6D5052C-F1AE-87FC-2873-240EA968EB55" name="TB_MD3_HUMIDITY_READINGS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:09:29 UTC</createdTime>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="humidity_id" id="E95FC3EA-4509-4FAB-07E7-666BD44301AA">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:09:43 UTC</createdTime>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor_id" id="9490EC81-B1AD-7897-7055-ED0AC54DEA8E">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:32:01 UTC</createdTime>
+<generatorID>E08D560D-77C4-631C-7743-8CBF83DA3BAF</generatorID>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="true"/>
+</engineerTo>
+<referedAttribute>CCBF1BBD-815F-637E-8487-5C76BCF1FA0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="humidity_value" id="4E43B639-171C-D0F6-3857-395C401B0E11">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:10:00 UTC</createdTime>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reading_timestamp" id="C1E2534C-1D1C-603E-E9D4-C59B862305D2">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:10:37 UTC</createdTime>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C43184D-D627-2AA6-78AF-291E39A09333" name="TB_HUMIDITY_READINGS PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-06 12:09:59 UTC</createdTime>
+<ownerDesignName>Mod3-Cap1-Databases</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="22457076-E037-4439-5EBE-99ED563F0CE0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E95FC3EA-4509-4FAB-07E7-666BD44301AA</attributeRef>
+<attributeRef>9490EC81-B1AD-7897-7055-ED0AC54DEA8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
