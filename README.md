@@ -7,8 +7,10 @@ de# FIAP - Faculdade de Informática e Administração Paulista
 <br>
 
 # Nome do projeto
+Automação e inteligência na FarmTech Solutions
 
 ## Nome do grupo
+Deniz Feital Armanhe - Individual
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/deniz-feital-armanhe/">Deniz Feital Armanhe</a>
