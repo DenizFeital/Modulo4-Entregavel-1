@@ -33,27 +33,27 @@
 
 ## 1.1. Escopo do Projeto
 
-### 1.1.1. Contexto da Inteligência Artificial
+### 1.1.1. Capítulo 1 - Automação e inteligência na FarmTech Solutions
 
-*Descreva aqui o contexto da indústria de Inteligência Artificial. Explique o segmento de atuação, as atividades executadas e a abrangência das suas aplicações (internacional, nacional ou regional).*
+*Nesta nova fase do projeto, Fase 4, o objetivo é levar a implementação da FarmTech Solutions da Fase 3 a um novo nível de sofisticação, incorporando o uso do Scikit-learn, Streamlit, Banco de Dados e otimizações no ESP32*
 
 ### 1.1.2. Descrição da Solução Desenvolvida
 
-*Descreva brevemente a solução de IA desenvolvida. Inclua aspectos essenciais para a criação de valor do produto com o objetivo de entender melhor a realidade do cliente e entregar uma solução alinhada com suas expectativas.*
+*A solução foi desenvolvida utilizando atividades do Módulo 3, onde tivemos uma boa preparação com relação ao ESP32, banco de dados e códigos Python. A utilização Scikit-learn e Streamlit foram as novidades desta fase, o que aumentou a qualidade deste entregável com estas funcionalidades. *
 
 # <a name="c2"></a>2. Visão Geral do Projeto
 
 ## 2.1. Objetivos do Projeto
 
-*Defina claramente os objetivos do projeto de IA. O que o projeto pretende alcançar?*
+*Demonstrar as novas funcionalidades deste módulo com a adição das mesmas ao ambiente previamente criado, tornando-o assim mais efetivo. O objetivo é continuar com o aprendizado, e melhor a qualidade das entregas iniciadas em módulos anteriores*
 
 ## 2.2. Público-Alvo
 
-*Identifique o público-alvo do projeto. Quem são os usuários finais da solução desenvolvida?*
+*Bem, isto é um trabalho da FIAP, mas obviamente a idea é que o aprendizado aqui seja aplicado nas empresas do ramo agrícola. Obviamente o conhecimento aqui é agnóstico, servirá para qualquer área de atuação, o que é excelente*
 
 ## 2.3. Metodologia
 
-*Descreva a metodologia utilizada para desenvolver o projeto. Quais foram as etapas e processos seguidos?*
+*A metodologia foi utilizar toda a nova documentação *
 
 # <a name="c3"></a>3. Desenvolvimento do Projeto
 
