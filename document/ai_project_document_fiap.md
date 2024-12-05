@@ -83,9 +83,9 @@ Em um exemplo bem interessante, a análise dos dados mostrou que a irrigação n
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
 
-Desenho físico do banco de dados:
+Desenho físico do banco de dados (foi adicionado uma coluna (temperature_value) na tabela TB_MD3_HUMIDITY_READINGS):
 
-![image](https://github.com/user-attachments/assets/889fd4ca-2f9b-4d91-9c4e-ec81a289cdd9)
+![image](https://github.com/user-attachments/assets/1785b788-9470-413f-a39c-f4ee8154098f)
 
 Solução ESP32:
 
