@@ -4,6 +4,7 @@ import pandas as pd
 df = pd.read_csv('farm_dataset_original.csv')
 
 # Update the 'duration' column based on the 'temperature' column
+# This is just a basic calculation, no real formule
 a = 0.5  # multiplier
 b = 5    # offset
 df['duration'] = df['temperature'] * a + b
