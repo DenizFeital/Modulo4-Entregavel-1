@@ -3,12 +3,11 @@
 
 # AI Project Document - Módulo 1 - FIAP
 
-**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
-
 ## Nome do Grupo
+Deniz Feital Armanhe - individual
 
 #### Nomes dos integrantes do grupo
-
+Deniz Feital Armanhe
 
 
 ## Sumário
@@ -59,34 +58,50 @@
 
 ## 3.1. Tecnologias Utilizadas
 
-*Liste as tecnologias, ferramentas e bibliotecas utilizadas no desenvolvimento do projeto de IA.*
+Python
+Visual Studio Code
+Linguagem C
+Banco de Dados Oracle
+ChatGPT
 
 ## 3.2. Modelagem e Algoritmos
 
-*Descreva os modelos e algoritmos de IA utilizados no projeto. Explique por que esses modelos foram escolhidos e como foram implementados.*
+*Foram utilizados principalmente o Scikit-learn e o Stremlit, além de bibliotecas Python para criação de datasets.
 
 ## 3.3. Treinamento e Teste
 
-*Descreva o processo de treinamento e teste dos modelos de IA. Inclua informações sobre os conjuntos de dados utilizados, métricas de avaliação e resultados obtidos.*
+Utilizamos o Python e modelos de regressão linear para estas atividades.
 
 # <a name="c4"></a>4. Resultados e Avaliações
 
 ## 4.1. Análise dos Resultados
 
-*Analise os resultados obtidos com os modelos de IA. Compare os resultados esperados com os resultados reais e discuta as possíveis razões para as diferenças.*
+Em um exemplo bem interessante, a análise dos dados mostrou que a irrigação não estava ligada diretamente a temperatura, ou seja, independente se estava muito calor, a irrigação era feita sempre com a mesma duração. Após esta análise, ajustamos a irrigação para que ela dure de acordo com a temperatura.
 
-## 4.2. Feedback dos Usuários
-
-*Inclua feedback recebido de usuários finais durante o processo de avaliação do projeto.*
-
-# <a name="c5"></a>5. Conclusões e Trabalhos Futuros
-
-*Descreva de que formas a solução desenvolvida atingiu os objetivos do projeto. Indique pontos fortes e pontos a melhorar. Relacione os pontos de melhorias evidenciados e elabore um plano de ações para serem implementadas no futuro.*
-
-# <a name="c6"></a>6. Referências
-
-_Incluir as principais referências de seu projeto, para que outros possam consultar caso tenham interesse em aprofundar._
 
 # <a name="c7"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
+
+Desenho físico do banco de dados:
+
+![image](https://github.com/user-attachments/assets/889fd4ca-2f9b-4d91-9c4e-ec81a289cdd9)
+
+Solução ESP32:
+
+![image](https://github.com/user-attachments/assets/1d449443-5752-4ff2-a511-d0e51d375ef3)
+
+Análise através dos resultados obtidos com a regressão linear (antes e após os ajustes):
+
+![image](https://github.com/user-attachments/assets/8032cd6a-c0fc-4c21-b2b6-19a35790219a)
+
+
+![image](https://github.com/user-attachments/assets/314d24a2-12df-4f33-85d4-51995bfd8b1a)
+
+Utilização da ferramenta Streamlit:
+
+![image](https://github.com/user-attachments/assets/3fe7486f-0ee9-43bd-9450-57de20a527b5)
+
+
+![image](https://github.com/user-attachments/assets/0a4edd06-5342-4aa9-9fe3-bd9ac2f3e175)
+
