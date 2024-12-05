@@ -10,13 +10,13 @@ df1 = pd.read_csv('farm_dataset_original.csv')
 # Load your second dataset (farm_dataset1.csv)
 df2 = pd.read_csv('farm_dataset_updated.csv')
 
-# Check the first few rows to ensure both datasets are loaded correctly
+# Check the first few rows
 print("Dataset 1:")
 print(df1.head())
 print("\nDataset 2:")
 print(df2.head())
 
-# Create the first seaborn scatter plot with a regression line using 'duration' and 'temperature' from df1
+# Create the first seaborn 
 plt.figure(figsize=(10, 6))
 sns.set(style="whitegrid")
 sns.regplot(x='temperature', y='duration', data=df1, scatter_kws={'color':'blue', 'alpha':0.6}, line_kws={'color':'red'}, ci=None)
@@ -29,7 +29,7 @@ plt.title('Relação entre temperatura e duração da irrigação (Dataset origi
 # Display the first plot
 plt.show()
 
-# Create the second seaborn scatter plot with a regression line using 'duration' and 'temperature' from df2
+# Create the second seaborn
 plt.figure(figsize=(10, 6))
 sns.set(style="whitegrid")
 sns.regplot(x='temperature', y='duration', data=df2, scatter_kws={'color':'green', 'alpha':0.6}, line_kws={'color':'orange'}, ci=None)
