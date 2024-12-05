@@ -1,7 +1,7 @@
 
 <img src="../assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=30% height=30%>
 
-# AI Project Document - Módulo 1 - FIAP
+# AI Project Document - Módulo 4 - FIAP
 
 ## Nome do Grupo
 Deniz Feital Armanhe - individual
