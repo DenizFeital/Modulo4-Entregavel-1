@@ -115,6 +115,7 @@ void loop() {
         Serial.print("A medição da humidade está em: ");
         Serial.print(humidity);
         Serial.println(" %, desde a última medição");
+        Serial.print("Resultados desta medição! Obrigado!");
     }
 
     lastButtonState2 = buttonState2;
