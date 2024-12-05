@@ -1,4 +1,4 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+de# FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
 <a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
@@ -37,7 +37,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
 
-- <b>document</b>: aqui estão todos os documentos do projeto.
+- <b>document</b>: aqui estão todos os documentos do projeto e o **detalhamento da solução**.
 
 - <b>scripts</b>: Scripts auxiliares para tarefas específicas do projeto.
 
