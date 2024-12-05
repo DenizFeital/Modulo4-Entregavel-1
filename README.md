@@ -11,22 +11,20 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/deniz-feital-armanhe/">Deniz Feital Armanhe</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- Lucas Gomes Moreira
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- Andre Godoi Chiovato
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+Nesta nova fase do projeto, Fase 4, o objetivo é levar a implementação da FarmTech Solutions da Fase 3 a um novo nível de sofisticação, incorporando o uso do Scikit-learn, Streamlit, Banco de Dados e otimizações no ESP32.
+
+O desafio aqui é aprimorar a aplicação desenvolvida na Fase 3, trazendo novas funcionalidades e melhorias no uso de recursos já apresentados nas fases.*
 
 
 ## 📁 Estrutura de pastas
