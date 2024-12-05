@@ -58,17 +58,17 @@ Deniz Feital Armanhe
 
 ## 3.1. Tecnologias Utilizadas
 
-Python
-
-Visual Studio Code
-
-Linguagem C
-
-Banco de Dados Oracle
-
-ChatGPT
-
-além das bibliotecas que contans no arquivo requirements.txt
+  Python
+  
+  Visual Studio Code
+  
+  Linguagem C
+  
+  Banco de Dados Oracle
+  
+  ChatGPT
+  
+  Além das bibliotecas que contans no arquivo requirements.txt
 
 
 ## 3.2. Modelagem e Algoritmos
