@@ -37,9 +37,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+- <b>document</b>: aqui estão todos os documentos do projeto.
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+- <b>scripts</b>: Scripts auxiliares para tarefas específicas do projeto.
 
 - <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
 
@@ -47,20 +47,17 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Para este engajamento, temos alguns códigos a serem executados:
+
+Os arquivos .py (Python) devem ser executados ou através do comando prompt ou através do Visual Studio Code (modo sugerido). Requisitos para o Python são as bibliotecas que foram adicionadas ao código.
+Os códigos C deste engajamento devem ser executados diretamente no webiste wokwi.com. Para este caso, verificar o link do wokwi.com na documentação.
+
+As versões utilizadas foram as mais recentes, tanto do Python quanto da ferramenta C.
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
+* 0.1.0 - 12 de Dezembro de 2024
     *
 
 ## 📋 Licença
